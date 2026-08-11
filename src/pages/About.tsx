@@ -1,7 +1,7 @@
 import { company } from "../data/mockData";
 import { motion } from "motion/react";
 import { UserRound } from "lucide-react";
-import africanScarf from "../assets/images/african_headwrap_scarf_1786450028137.jpg";
+import africanScarf from "../assets/images/pagne_new_25.jpeg";
 
 export function About() {
   return (

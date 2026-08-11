@@ -4,7 +4,7 @@ import { Button } from "../components/ui/Button";
 import { collections, products } from "../data/mockData";
 import { cn } from "../lib/utils";
 import heroImage from "../assets/images/nigerian_velvet_pagne_1786449827540.jpg";
-import ghanaKente from "../assets/images/ghana_kente_cloth_1786450001089.jpg";
+import ghanaKente from "../assets/images/pagne_new_17.jpeg";
 import { Logo } from "../components/ui/Logo";
 
 export function Home() {
