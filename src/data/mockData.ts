@@ -10,6 +10,16 @@ import ghanaKente2 from "../assets/images/ghana_kente_2_1786450192768.jpg";
 import burkinaDanFani2 from "../assets/images/burkina_dan_fani_2_1786450204500.jpg";
 import africanScarf2 from "../assets/images/african_scarf_2_1786450215098.jpg";
 
+import pagneWhatsapp1 from "../assets/images/pagne_whatsapp_1.jpeg";
+import pagneWhatsapp2 from "../assets/images/pagne_whatsapp_2.jpeg";
+import pagneWhatsapp3 from "../assets/images/pagne_whatsapp_3.jpeg";
+import pagneWhatsapp4 from "../assets/images/pagne_whatsapp_4.jpeg";
+import pagneWhatsapp5 from "../assets/images/pagne_whatsapp_5.jpeg";
+import pagneWhatsapp6 from "../assets/images/pagne_whatsapp_6.jpeg";
+import pagneWaxJauneRouge from "../assets/images/pagne_wax_jaune_rouge.jpg";
+import tissuVeloursFloralBleu from "../assets/images/tissu_velours_floral_bleu.jpg";
+import tissuAnkaraWaxGhana from "../assets/images/tissu_ankara_wax_ghana.webp";
+
 export const company: Company = {
   name: "DIEU EST MON PROTECTEUR",
   manager: "KPODZO Akossiwa",
@@ -64,7 +74,8 @@ export const products: Product[] = [
     description: "Un tissu d'une rare élégance, tissé avec des fils dorés subtils. Parfait pour les grandes cérémonies et mariages.",
     images: [
       africanVelvet,
-      nigerianVelvet2
+      nigerianVelvet2,
+      pagneWhatsapp1
     ],
     colors: ["Noir", "Or", "Rouge"],
     available: true,
@@ -80,7 +91,8 @@ export const products: Product[] = [
     description: "Inspiré par la voûte céleste, ce pagne sombre aux éclats argentés confère une prestance incomparable.",
     images: [
       burkinaDanFani,
-      burkinaDanFani2
+      burkinaDanFani2,
+      pagneWhatsapp2
     ],
     colors: ["Terre", "Beige", "Noir"],
     available: true,
@@ -96,7 +108,8 @@ export const products: Product[] = [
     description: "Motifs géométriques traditionnels revisités dans une palette chaleureuse pour un retour aux sources assumé.",
     images: [
       ghanaKente,
-      ghanaKente2
+      ghanaKente2,
+      tissuAnkaraWaxGhana
     ],
     colors: ["Rouge", "Jaune", "Vert", "Bleu"],
     available: true,
@@ -112,7 +125,8 @@ export const products: Product[] = [
     description: "Des nuances de bleu apaisantes sur une trame légère. Idéal pour une tenue de jour chic et décontractée.",
     images: [
       africanScarf,
-      africanScarf2
+      africanScarf2,
+      tissuVeloursFloralBleu
     ],
     colors: ["Multicolore"],
     available: false,
@@ -127,7 +141,8 @@ export const products: Product[] = [
     collection: "Élégance",
     description: "Un vert profond et vibrant. Ce tissu velours capte la lumière pour révéler des textures riches et sophistiquées.",
     images: [
-      nigerianVelvet2
+      nigerianVelvet2,
+      pagneWhatsapp5
     ],
     colors: ["Vert", "Or", "Argent"],
     available: true,
@@ -142,7 +157,8 @@ export const products: Product[] = [
     collection: "Tradition",
     description: "Un tissage kente aux teintes ardentes de rouge, orange et or, symbole de force et de vitalité.",
     images: [
-      ghanaKente2
+      ghanaKente2,
+      pagneWaxJauneRouge
     ],
     colors: ["Orange", "Rouge", "Or", "Noir"],
     available: true,
@@ -157,7 +173,8 @@ export const products: Product[] = [
     collection: "Prestige",
     description: "Faso Dan Fani authentique aux rayures indigo et blanches, alliant rusticité et élégance pure.",
     images: [
-      burkinaDanFani2
+      burkinaDanFani2,
+      pagneWhatsapp4
     ],
     colors: ["Indigo", "Blanc"],
     available: true,
@@ -172,7 +189,9 @@ export const products: Product[] = [
     collection: "Tendances",
     description: "Motifs circulaires vibrants aux couleurs audacieuses, parfait pour des créations contemporaines.",
     images: [
-      africanScarf2
+      africanScarf2,
+      pagneWhatsapp3,
+      pagneWhatsapp6
     ],
     colors: ["Magenta", "Cyan", "Jaune"],
     available: true,
