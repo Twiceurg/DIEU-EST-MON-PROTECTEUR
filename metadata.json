@@ -1,0 +1,6 @@
+{
+  "name": "Dieu est mon protecteur",
+  "description": "Showroom digital premium de pagnes et tissus élégants.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
